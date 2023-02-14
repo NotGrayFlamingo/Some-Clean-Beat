@@ -25,7 +25,14 @@ class multiTouch {
             }
           }
         },
-
+                {
+          opcode: 'fingers',
+          text: '# of fingers down',
+          blockType: Scratch.BlockType.REPORTER,
+            }
+          }
+        },
+        
         {
           opcode: 'setDimensions',
           text: 'Set width to [width] and height to [height]',
